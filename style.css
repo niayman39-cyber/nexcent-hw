@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.navbar{
+       background-color: #F5F7FA;
+}
+.container{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.btn{
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #4CAF4F;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color:white;
+    display: inline-block;
+}
+
+.ghost{
+    color:#4CAF4F;
+    background-color: transparent;
+}
+
+nav{
+    padding: 30px 0;
+}
+
+nav .logo,nav .auth_btn{
+    width: 20%;
+}
+
+nav .auth_btn{
+    text-align: right;
+}
+
+nav .auth_btn .ghost{
+    margin-right: 14px;
+}
+
+nav .menu{
+    width: 60%;
+    text-align: center;
+}
+
+nav .menu li {
+    display: inline-block;
+}
+
+nav .menu a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 25px;
+    color: #18191F;
+    display: inline-block;
+}
+
+nav .menu .active {
+    font-weight: 500;
+}
+
+.container2 {
+    max-width: 1140px;
+    margin: 0 auto;
+    width:1440px;
+    height: 500px;
+}
+
+#hero{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+#hero .hero-content h1{
+    color: #4D4D4D
+}
+
+#hero .hero-content span{
+    color: #4CAF4F;
+}
+
+#hero .container2{
+    background-color: #F5F7FA;
+}
+
+#hero .hero-content p{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+#hero .hero-content{
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+}
+
+#hero .hero-img{
+    width: 391px;
+    height: 300px;
+}
+
+#hero .btn{
+    margin-top: 32px;
+}
+
+.heading h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+   
+    color: #4D4D4D;
+}
+
+#client .row{
+    justify-content: space-between;
+    margin-right: 144px;
+    margin-left: 144px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+#suitable .row{
+    display:flex;
+}
+
+#suitable.row div {
+    width:33.33;
+    gap: 30px;
+
+}
+
+#suitable .row {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+#suitable .row p{
+    font-size: 10px;
+}
+
+#suitable .membership img{
+    align-items: center;
+    margin-left: 55px;
+}
+#pixel .container {
+    display: flex;
+}
+#pixel .text {
+    margin-top: 150px;
+}
+#pixel .text p{
+    font-size: 12px;
+}
+#pixel .btn {
+    margin-top: 50px;
+}
+
+#help{
+    padding: 70px 0;
+}
+#help .container .row{
+    background-color:#F5F7FA;
+}
+
+#help .text,
+#help .counter{
+    width:50%;
+}
+
+#help .text h2{
+    
+font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+color: #4D4D4D;
+margin-left: 100px;
+}
+
+#help .text span{
+    color: #4CAF4F;
+}
+
+#help .text p{
+        
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+    margin-left: 100px;
+}
+
+
+#help .counter .count{
+    width: 50%;
+    display: flex;
+    align-items:center;
+    margin-bottom: 40px;
+}
+#help .counter .count img{
+    margin-right: 16px;
+}
+
+#help .counter .count .detail h3{
+
+font-weight: 700;
+font-size: 28px;
+line-height: 129%;
+color: #4D4D4D;
+}
+#help .counter .count .detail p{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #717171;
+}
+#design .container {
+    display: flex;
+}
+#design .text {
+    margin-top: 150px;
+}
+#design .text p{
+    font-size: 12px;
+}
+#design .btn {
+    margin-top: 50px;
+}
+
+#tesla .container {
+    display: flex;
+    background-color: #F5F7FA;
+}
+
+#tesla .text {
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+#tesla .text p{
+    font-size: 12px;
+}
+
+#tesla .text h5{
+    color: #4CAF4F;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#tesla .btn {
+    margin-top: 10px;
+    margin-left: 550px;
+    margin-top: 55px;
+}
+#tesla .row{
+    justify-content: space-between;
+    display: flex;
+}
+
+#blog .heading p{
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+#blog .container img {
+    margin-left: 12px;
+}
+
+#demo .container{
+    background-color: #F5F7FA;
+}
+
+#footer .container{
+    display: flex;
+}
